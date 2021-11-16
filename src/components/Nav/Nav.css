@@ -1,0 +1,52 @@
+.nav-rapper{
+display: flex;
+justify-content: space-between;
+}
+.lang{
+    cursor: pointer;
+}
+.search-container{
+    display:flex;
+    align-items: center;
+    border: solid 1px darkgray;
+    border-radius: 5px;
+    padding: .2em .3em;
+}
+.input-part{
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    gap: 1em;
+    margin-left: 2em;
+    flex: 1;
+}
+.center{
+    flex: 1;
+    margin-top: 1%;
+}
+.right{
+    margin-top: 1%;
+    flex: 1;
+}
+.right ul{
+    display: flex;
+    list-style-type: none;
+}
+.right ul a{
+    margin: 0 2em;
+    
+}
+.right ul li a{
+    
+    text-decoration: none;
+    color:rgb(61, 52, 52);
+    
+}
+.right ul li a:hover{
+    color: black;
+}
