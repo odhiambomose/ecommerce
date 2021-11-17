@@ -13,17 +13,34 @@ return(
         <ArrowLeftOutlinedIcon />
             
         </div>
+
+
+{
+
+slides.map(slide=>{
+    return(
 <div className="slide">
 <div className="slide-image">
-    <img src="images/woman1.jpg" />
+    <img src={slide.img} />
 </div>
 <div className="slide-content">
-    <h2>HOLIDAY OFFERS</h2>
-    <p>Grab our latest December offers</p>
+    <h2>{slide.title}</h2>
+    <p>{slide.desc}</p>
     <button>Buy Know</button>
 </div>
 
 </div>
+    )
+})
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -41,7 +58,10 @@ return(
 <ArrowRightOutlinedIcon />
 </div>
 
+
     </div>
+
+
 )
 
 

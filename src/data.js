@@ -1,7 +1,7 @@
 export const slides=[
     {
         id:1,
-        img:"./images/woman.jpg",
+        img:"./images/woman1.jpg",
         title:"HOLIDAY OFFERS",
         desc:"Grab our December Latest Offers"
     },
