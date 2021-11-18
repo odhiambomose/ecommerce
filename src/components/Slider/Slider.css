@@ -1,17 +1,18 @@
 .wrapper{
 position: relative;
-    width: 100vw;
     height: 100vh;
-    /* display: flex; */
-    /* overflow: hidden; */
+     display: flex; 
+     overflow: hidden; 
 }
 .slide{
     width: 100vw;
-    flex: 1;
+    flex: 0 0 100vw;
         display: flex;
          /* align-items: center;  */
         height: 80%;
-        background-color: rgb(245, 242, 238);
+        overflow: hidden;
+        
+        
     }
     .slide-image{
         flex: 1;
@@ -50,16 +51,18 @@ position: relative;
     .left-arrow,.right-arrow{
         width: 50px;
         height: 50px;
-        border: solid 1px black;
+        
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: rgb(255, 255,255, 0.5);
         position: absolute;
+        z-index: 2;
         top: 40%;
         transform: translateY(-40%);
         margin: 0 2em;
+        cursor: pointer;
         
     }
 
