@@ -11,7 +11,7 @@ position: relative;
          /* align-items: center;  */
         height: 80%;
         overflow: hidden;
-        
+        transition: all 1.5s ease;
         
     }
     .slide-image{

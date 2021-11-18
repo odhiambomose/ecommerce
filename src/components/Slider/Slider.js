@@ -5,13 +5,16 @@ import "./Slider.css"
 import ArrowRightOutlinedIcon from '@material-ui/icons/ArrowRightOutlined';
 import ArrowLeftOutlinedIcon from '@material-ui/icons/ArrowLeftOutlined';
 import{slides} from "../../data"
+import { Transform } from "@material-ui/icons";
 
 const Sliders=()=>{
     const [slideIndex,setSlideIndex]=useState(0);
 
 const handleClick=(direction)=>{
     if(direction==="left"){
-     setSlideIndex(slideIndex>0?slideIndex-1)   
+     setSlideIndex(slideIndex>0?slideIndex-1:2)   
+    }else{
+        setSlideIndex(slideIndex<2?slideIndex+1:0)
     }
 
 
@@ -30,7 +33,7 @@ return(
 
 slides.map(slide=>{
     return(
-<div className="slide" style={{backgroundColor:slide.bg}}>
+<div className="slide" style={{backgroundColor:slide.bg,transform:`translatex(${slideIndex*-100}vw)`}}>
 <div className="slide-image">
     <img src={slide.img} />
 </div>
