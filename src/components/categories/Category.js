@@ -1,13 +1,24 @@
 import React from "react";
-import "./Category.css"
+import { categories } from "../../data"
+
+import CategoryItem from "../CategoryItem/CategoryItem";
+import "./Category.css";
 
 
+const Categories = () => {
+    return (
+<div className="category-container">
+    {
+        categories.map(item => {
+            return (
 
-const Categories=()=>{
-    return(
-        <div>
-        <p>My categories</p>
-        </div>
+                <CategoryItem item={item}/>
+               
+            )
+        })
+    }
+         </div>
+
     )
 }
 export default Categories
