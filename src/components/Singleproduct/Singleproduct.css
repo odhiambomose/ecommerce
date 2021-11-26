@@ -1,0 +1,107 @@
+.flex-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-left: 22%;
+}
+.description-part h2{
+font-size: 2rem;
+}
+.description-part p{
+    font-size: 1.5rem;
+    line-height: 2em;
+}
+.colors{
+display: flex;
+align-items: center;
+gap: 2em;
+}
+.colors h2{
+    font-size: 2rem;
+    margin-right:  1em;
+}
+
+/* .flex-items .flex-inner {
+    flex: 1;
+} */
+.colors div{
+
+    border-radius: 50%;
+    /* margin-right: 2em; */
+
+    
+}
+.color-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+}
+.paragraph-select{
+    font-size: 1.5rem;
+    line-height: 3em;
+}
+.inner-color{
+    width: 35px;
+    height: 35px;
+}
+.maroon{
+    background-color: #BA6364;
+}
+.yellow{
+    background-color: #BA8D63;
+}
+.green{
+    background-color: #63B5BA;
+}
+.maroon-outer{
+    border: solid 1px #BA6364;
+}
+.yellow-outer{
+    border: solid 1px #BA8D63;
+}
+.green-outer{
+    border: solid 1px #63B5BA;
+}
+.paragraph-count{
+    display: flex;
+margin-top: 2em;
+    align-items: center;
+    gap: 2em;
+    
+}
+.border-paragraph{
+    border: 1px solid black;
+    padding: .8em 1em;
+}
+.apparatus{
+    font-size: 2em;
+}
+.cart{
+    border: solid 2px #7FC2C6;
+    padding: 1em 3em;
+    
+}
+.cart {
+    font-size: 1rem;
+}
+.prize{
+    font-size: 3rem;
+    line-height: 2em;
+    color: #c6847f;
+}
+.icon-love{
+    color: #7FC2C6;
+}
+.wish{
+    color: #7FC2C6;
+}
+.description{
+    width: 50%;
+    line-height: 1.5em;
+}
+.choose-part{
+    padding: 1em 1em;
+}

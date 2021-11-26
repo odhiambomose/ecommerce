@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+.product-image{
+    flex-wrap: wrap;
+    gap: 2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 100%; */
+    /* height: fit-content; */
+    
+    /* position: relative; */
+    z-index:1;
+     background: rgb(247, 184, 162); 
+    
+}
+
+.products-gallery{
+    flex: 1;
+}
+
+

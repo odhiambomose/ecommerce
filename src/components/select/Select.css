@@ -1,0 +1,36 @@
+.selection-part{
+    padding: 2em 3em;
+}
+.selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEAEA;
+    margin-bottom: 4em;
+}
+.selection div{
+    margin: 0 4em;
+}
+.color-part{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.price-part{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.size-part{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.heading-select h2{
+text-align: center;
+font-size: 2.5rem;
+padding: 2em 0;
+}
+.heading-select{
+    background-color: #EFEAEA;
+}

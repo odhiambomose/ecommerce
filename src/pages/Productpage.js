@@ -1,19 +1,19 @@
 import React from "react";
 import Announcement from "../components/Announcements/Announcements";
-import Categories from "../components/categories/Category";
+
 import Nav from "../components/Nav/Nav";
-import Slider from "../components/Slider/Slider"
+import Select from "../components/select/Select";
 import Products from "../components/Products/Products";
 import Newsletter from "../components/news letter/News";
 import Footer from "../components/footer/Footer";
-const Home=()=>{
+const Productpages=()=>{
 
 return(
 <div>
-<Announcement/>
 <Nav />
-<Slider />
-<Categories />
+<Announcement/>
+<Select />
+
 <Products />
 <Newsletter />
 <Footer />
@@ -22,4 +22,4 @@ return(
 )
 
 }
-export default Home;
+export default Productpages;

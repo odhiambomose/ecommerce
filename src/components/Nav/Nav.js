@@ -1,9 +1,10 @@
 import React from "react";
 import "./Nav.css"
-import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
-import Badge from '@material-ui/core/Badge';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import Badge from '@mui/material/Badge';
 
-import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
+
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Nav=()=>{
 
@@ -22,7 +23,7 @@ const Nav=()=>{
         <li><a href="#">LOG IN</a></li>
         <li><a href="#">Register</a></li>
         <Badge badgeContent={4} color="primary">
-        <LocalMallOutlinedIcon />
+        <ShoppingCartOutlinedIcon />
       </Badge>
        </ul>
     </div>

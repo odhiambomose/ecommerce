@@ -2,10 +2,10 @@
 
 import React, { useState } from "react";
 import "./Slider.css"
-import ArrowRightOutlinedIcon from '@material-ui/icons/ArrowRightOutlined';
-import ArrowLeftOutlinedIcon from '@material-ui/icons/ArrowLeftOutlined';
+import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
+import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import{slides} from "../../data"
-import { Transform } from "@material-ui/icons";
+
 
 const Sliders=()=>{
     const [slideIndex,setSlideIndex]=useState(0);

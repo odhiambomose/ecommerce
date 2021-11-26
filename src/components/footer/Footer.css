@@ -1,0 +1,94 @@
+.footer-part{
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+    margin-top: 5%;
+    background-color: #EFEAEA;
+    
+}
+.icon-text{
+    flex: 1;
+    margin-left: 3em;
+}
+.third-part{
+    flex: 1;
+}
+.third-part ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    line-height: 2em;
+}
+.fourth-part{
+    flex: 1;
+
+}
+.fourth-part div{
+    display: flex;
+    align-items: center;
+    line-height: 2em;
+}
+.footer-text p{
+width: 80%;
+font-size: 1.2rem;
+line-height: 2
+
+}
+.footer-text h2{
+    font-size: 3rem;
+}
+.useful-part h2{
+    font-size: 1.5rem;
+}
+.useful-part{
+    flex: 1;
+}
+.useful-part ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    line-height: 2
+}
+.icon-footer *{
+   margin: 0 1.1em; 
+
+}
+.icon-footer{
+    display: flex;
+    
+}
+.icon-footer div{
+    border-radius: 50%;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.copy{
+    text-align: center;
+    background-color:#494545 ;
+    padding: 1.5em 0;
+}
+.copy p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+ .facebook{
+    background-color: #3B5998;
+} 
+.instagram{
+    background-color: red;
+}
+.pinterest{
+    background-color: red;
+}
+.twitter{
+    background-color:#4DA2F1 ;
+}
+.payment{
+    margin-top: 2em;
+}
+.payment div{
+    margin-right:  1em;
+}

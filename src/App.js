@@ -1,10 +1,12 @@
-import Home from"./pages/Home";
+import Productpages from"./pages/Productpage";
+import SingleproductPage from "./pages/SingleProductPage";
 import './App.css';
+import SingleProductPage from "./pages/SingleProductPage";
 
 
 function App() {
   return (
-    <Home />
+    <SingleProductPage />
   );
 }
 
