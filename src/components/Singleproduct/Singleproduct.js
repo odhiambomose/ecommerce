@@ -4,9 +4,13 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 
+
 const Singleproduct=()=>{
     const[number,setNumber]=useState(0);
+
     const[color,setColor]=useState("Maroon")
+    const[active,setactive]=useState(0)
+    
     const increase=()=>{
         if(number<5){
         setNumber(prevNum => prevNum +1);}
@@ -19,6 +23,11 @@ const Singleproduct=()=>{
         setColor(color);
 
     }
+    function activeChange(active){
+        setactive(active)
+    }
+
+    
     return(
     
         <div className="flex-items">
@@ -53,13 +62,13 @@ const Singleproduct=()=>{
 <div className="colors">
     <h2>Color</h2>
 <div className="color-item maroon-outer">
-    <div className="inner-color maroon" onMouseOver={()=>handleColorOnHover("Maroon")}></div>
+    <div className="inner-color maroon" onMouseOver={()=>handleColorOnHover("Maroon")} onClick={()=>setColor("Maroon")} onClick={()=>activeChange("maroon")}></div>
 </div>
 <div className="color-item yellow-outer" >
-<div className="inner-color yellow" onMouseOver={()=>handleColorOnHover("Yellow")}></div>
+<div className="inner-color yellow" onMouseOver={()=>handleColorOnHover("Yellow")} onMouseOut={()=>setColor("maroon")}  onClick={()=>activeChange("yellow")} ></div>
 </div>
 <div className="color-item green-outer">
-<div className="inner-color green" onMouseOver={()=>handleColorOnHover("green")}></div>
+<div className="inner-color green" onMouseOver={()=>handleColorOnHover("green")} onMouseOut={()=>setColor("maroon")}  onClick={()=>activeChange("maroon")}></div>
 </div>
 
 
