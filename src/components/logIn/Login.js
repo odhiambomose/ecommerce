@@ -26,24 +26,22 @@ const Login=()=>{
 
 return(
     <>
-    
-    <div className="background-part">
+
+<div className="login-container">
+    <div className="login-form">
+    <form>
         
-    <div className="form-part">
-        <div>
-        <form>
-        <div>
-            <div className="heading-form1">
-            <h2>magoso enterprises</h2>
+            <div >
+            <h2 className="heading-form1">magoso enterprises</h2>
+            <h3 className="heading-form2">Login</h3>
+            
+            
             </div>
-            <div className="heading-form2">
-            <h3>Login</h3>
-            </div>
-        </div>
+        
         <div className="email-input">
            
            
-         <input type="text" placeholder=""  className="part-email"/>
+         <input type="email" placeholder=""  className="part-email"/>
          <label for="email" className="color-leble">E-mail</label>
 
         </div>
@@ -71,23 +69,20 @@ return(
             
         </div>
         </form>
-        </div>
         
-        
+    </div>
 
-    
-        
-         <div className="login-text">
+    <div className="login-info">
+    <div className="login-text">
     <div>
         <p>welcome to</p>
         <h2>Magoso Enterprise</h2>
         <p>the home of reliable shopping</p>
     </div>
     </div> 
-    
     </div>
+</div>
     
-    </div>
     
     </>
 )

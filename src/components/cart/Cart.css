@@ -1,0 +1,139 @@
+.product1{
+    display: flex;
+    flex-direction: row;
+}
+.part-icon{
+    display: flex;
+    margin-left: 3em;
+}
+.part-icon p{
+    font-size: 1.5rem;
+}
+.icon-word{
+    display: flex;
+}
+.west-text{
+    display: flex;
+    margin-left: 3em;
+    align-items: center;
+}
+.icon-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+}
+.all-parts{
+    display: flex;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.remove{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 2em;
+}
+.count{
+    border: solid 2px;
+    padding: .5em .5em;
+    margin: 0 1em;
+}
+.warning{
+    color: red;
+}
+.quantity{
+    font-size: 1.5rem;
+    color: teal;
+}
+.clear{
+    font-size: 2rem;
+}
+.fill-part{
+    border: solid 2px black;
+    padding: 2em 6em;
+    border: none;
+box-shadow:9px 5px 7px 8px lightgray;
+margin-top: 2em;
+}
+.all-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.order{
+    font-size: 2rem;
+    text-align: center;
+}
+.para-span{
+    font-size: 1.3rem;
+    margin: 2em 0;
+}
+.prize-span{
+    margin-left: 5em;
+}
+.disc1{
+    margin-left: 5em;
+}
+.shipping{
+    margin-left: 5em;
+}
+.checkout{
+    padding: 1em 7em;
+    background-color: teal;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+}
+.access{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+.btn-shop{
+padding: 1em 5em;
+font-size: 1.2rem;
+background-color: teal;
+color: white;
+border: none;
+}
+
+
+@media (max-width:810px){
+.all-flex{
+    flex-wrap: wrap;
+}
+
+}
+@media (max-width:414px){
+.all-flex{
+ width: 100%;
+}
+.fill-part{
+    width: 100%;
+}
+.checkout{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+width: 100%;
+flex: 1;
+}
+.flex{
+    flex-wrap: wrap;
+}
+.cart-heading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+}

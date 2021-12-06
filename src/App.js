@@ -4,11 +4,23 @@ import './App.css';
 import SingleProductPage from "./pages/SingleProductPage";
 import LogPage from "./pages/LogPage";
 import SignUp from "./pages/SignUp";
+import Cart from "./pages/CartPage";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Home from "./pages/Home";
+
 
 
 function App() {
   return (
-    <SignUp />
+    <Router>
+<Routes>
+<Route path="/" element={<Home/>}/>
+<Route path="/cart" element={<Cart/>}/>
+<Route path="/login" element={<LogPage/>}/>
+<Route path="/signup" element={<SignUp/>}/>
+</Routes>
+</Router>
+   
   );
 }
 

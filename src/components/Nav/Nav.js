@@ -5,6 +5,7 @@ import Badge from '@mui/material/Badge';
 
 
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from "react-router-dom";
 
 const Nav=()=>{
 
@@ -20,11 +21,11 @@ const Nav=()=>{
     <div className="center"><h1>MAGOSO ENTERPRISE.</h1></div>
     <div className="right">
         <ul>
-        <li><a href="#">LOG IN</a></li>
-        <li><a href="#">Register</a></li>
-        <Badge badgeContent={4} color="primary">
+        <li><Link to="/login">LOGIN</Link></li>
+        <li><Link to="/signup">Register</Link></li>
+        <Link to="/cart"><Badge badgeContent={4} color="primary">
         <ShoppingCartOutlinedIcon />
-      </Badge>
+      </Badge></Link>
        </ul>
     </div>
 </div>

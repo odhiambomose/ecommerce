@@ -41,3 +41,21 @@
     color: #fff;
 }
 
+
+@media (max-width:810px){
+.input-content{
+    width: 80%;
+    margin-left: 2em;
+}
+}
+
+@media (max-width:414px){
+
+    .input-content{
+        width: 60%;
+        margin-left: 2em;
+    } 
+    .heading-paragraph{
+        width: 98%;
+    }
+}

@@ -25,27 +25,46 @@ const Signup=()=>{
         setConfirmPassword(confirmPasswordValue)
     }
 
+    const renderIcons = ()=>{
+        if(confirmPassword !== ""){
+        
+           
+           return     password===confirmPassword?<CheckIcon  style={{color:"green"}}/>:<ClearIcon style={{color:"red"}} />
+            
+            
+        }
+    }
+
     return(
         <div className="signup-flex">
             <div className="bgimage3"></div>
             <div className="text-form">
-            <div>
-                <h2 className="heading-text">Sign up with us</h2>
-        <input type="text" placeholder="fist name"  className="persons"/>
-        <input type="text" placeholder="Last Name" className="persons"/>
+            <div className="column">
+                <div>
+                <lable>First Name</lable>
+        <input type="text" placeholder=""  className="persons"/>
         </div>
         <div>
-<input type="text" placeholder="Email"  className="email-signup"/>
+        <lable>Last Name</lable>
+        <input type="text" placeholder="" className="persons"/>
         </div>
+        </div>
+
+        <lable>Email</lable>
         <div>
-            <input onChange={(e)=>onpasswordChange(e)} type="text" placeholder="Password" className="password-signup"/>
+<input type="text" placeholder=""  className="email-signup"/>
+        </div>
+        <lable>Password</lable>
+        <div>
+            <input onChange={(e)=>onpasswordChange(e)} type="password" placeholder="" className="password-signup"/>
             
         </div>
+        <lable>Confirm Password</lable>
         <div>
-            <input onChange={(e)=>onconfirmPassword(e)} type="text" placeholder="Confirm Password" className="confirm" />
+            <input onChange={(e)=>onconfirmPassword(e)} type="password" placeholder="" className="confirm" />
         
         </div>
-{password===confirmPassword?<CheckIcon  style={{color:"green"}}/>:<ClearIcon style={{color:"red"}} />}
+{renderIcons()}
         <div className="check-signup">
             <input type="checkbox" placeholder="" />
             <p>I accept the Terms of Use & Privacy policy</p>

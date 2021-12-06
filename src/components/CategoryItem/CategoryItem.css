@@ -35,3 +35,9 @@ margin: 0 1em;
     object-fit: cover;
 }
 
+@media (max-width:810px){
+    .category-product{
+        
+    }
+    }
+
