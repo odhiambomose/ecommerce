@@ -41,11 +41,11 @@ const Signup=()=>{
             <div className="text-form">
             <div className="column">
                 <div>
-                <lable>First Name</lable>
+                <lable className="naming-part">First Name</lable>
         <input type="text" placeholder=""  className="persons"/>
         </div>
         <div>
-        <lable>Last Name</lable>
+        <lable className="naming-part">Last Name</lable>
         <input type="text" placeholder="" className="persons"/>
         </div>
         </div>

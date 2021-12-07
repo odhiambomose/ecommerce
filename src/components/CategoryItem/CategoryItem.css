@@ -36,8 +36,8 @@ margin: 0 1em;
 }
 
 @media (max-width:810px){
-    .category-product{
-        
+    .category-container{
+        flex-direction: column;
     }
     }
 

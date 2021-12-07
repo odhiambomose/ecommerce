@@ -79,3 +79,19 @@ gap: 1em;
     top: 0;
     left: 100%;
 }
+
+
+@media (max-width:810px){
+.signup-flex{
+    width: 100%;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.naming-part{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+}
