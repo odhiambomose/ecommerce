@@ -1,14 +1,14 @@
-#Magoso Ecomerce
+# Magoso Ecomerce
 ---
-##Description
+## Description
 ---
 This is the official ecomerce website of Magoso that deals with marketing of newly manufactured clothes of different genders depending on the test of its consumers
 This websites apart from selling brandnew clothe it also advatises about the durability,quality and affordable price for its consumers
 Delivery and security of consumer's item is always provided to ensure your items reach in it's destination safely
-##Project Screenshot
+## Project Screenshot
 ---
 
-##Project Link
+## Project Link
 
 - You can view the project [here]()
 ---
@@ -19,7 +19,7 @@ Delivery and security of consumer's item is always provided to ensure your items
 ![website Category section](public/images/ecomerce3.png)
 
 
-##Set up and Installation
+## Set up and Installation
 ---
 To run this application on yoyur computer do the following
 - Clone the project to your disired location using ```git clone https://github.com/odhiambomose/ecommerce.git```
@@ -28,7 +28,7 @@ To run this application on yoyur computer do the following
 - Install all the dependancies using```npm install```(To use npm you must have [node](https://nodejs.org/en/) installed)
 - Run ```npm start```
 
-##Technologies used
+## Technologies used
 - HMTML5
 - CSS3
 JAVASCRIPT(EA6)
@@ -40,11 +40,11 @@ JAVASCRIPT(EA6)
 NODE Js: V16.13.0
 ---
 
-##Known Bugs
+## Known Bugs
 - Make sure you download the **LTS version of Node**
 ---
 
-##License
+## License
 MIT License
 
 Copyright (c) 2021 **Moses Odhiambo Ochieng**
@@ -67,11 +67,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-##Contact Information
+## Contact Information
 ---
 - Incase of queriesyou can reach me on: modhiambo056@gmail.com
 
-##Author
+## Author
 
 
 
