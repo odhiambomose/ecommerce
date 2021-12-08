@@ -114,6 +114,7 @@ border: none;
 @media (max-width:414px){
 .all-flex{
  width: 100%;
+ margin-right: 1.5em;
 }
 .fill-part{
     width: 100%;

@@ -38,6 +38,16 @@ margin: 0 1em;
 @media (max-width:810px){
     .category-container{
         flex-direction: column;
+        width: 100%;
     }
+    }
+
+
+    @media (max-width:414px){
+        .category-container{
+            flex-direction: column;
+            width: 100%;
+        }
+
     }
 

@@ -216,3 +216,9 @@ width: 100%;
 
 
 }
+
+@media (max-width:414px){
+.log-part{
+    width: 100%;
+}
+}

@@ -7,7 +7,7 @@ import SingleProductPage from "./pages/SingleProductPage";
 import LogPage from "./pages/LogPage";
 import SignUp from "./pages/SignUp";
 import Cart from "./pages/CartPage";
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import {HashRouter as Router,Routes,Route} from "react-router-dom";
 import Home from "./pages/Home";
 
 

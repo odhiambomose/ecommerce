@@ -21,7 +21,7 @@
     line-height: 2em;
 }
 .input{
-    width: 800px;
+    width: 100%;
     padding: 2em 0;
     text-align: center;
     border: none;
@@ -34,6 +34,7 @@
  .newsletter{
     display: flex;
     flex-direction: row;
+    width: fit-content;
 }
 .btn-newsletter{
     background-color: #3B9493;
@@ -47,6 +48,7 @@
     width: 80%;
     margin-left: 2em;
 }
+
 }
 
 @media (max-width:414px){
@@ -57,5 +59,8 @@
     } 
     .heading-paragraph{
         width: 98%;
+    }
+    .btn-newsletter{
+        width: 5%;
     }
 }

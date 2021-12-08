@@ -10,7 +10,7 @@ Delivery and security of consumer's item is always provided to ensure your items
 
 ## Project Link
 
-- You can view the project [here]()
+- You can view the project [here](http://odhiambomose.github.io/ecommerce)
 ---
 ![Website top section](public/images/ecomerce2.png)
 ---

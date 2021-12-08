@@ -71,4 +71,14 @@ right: 0;
     }
 
 
-  
+  @media (max-width:414px){
+
+    .slide-content h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .slide-content p{
+        font-size: 1rem;
+        margin: 1em 0;
+    }
+  }
